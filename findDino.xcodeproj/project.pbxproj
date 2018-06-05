@@ -12,8 +12,6 @@
 		F54FB6182032F9DD00E00C56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54FB6162032F9DD00E00C56 /* Main.storyboard */; };
 		F54FB61A2032F9DD00E00C56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F54FB6192032F9DD00E00C56 /* Assets.xcassets */; };
 		F54FB61D2032F9DD00E00C56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54FB61B2032F9DD00E00C56 /* LaunchScreen.storyboard */; };
-		F54FB6282032F9DD00E00C56 /* findDinoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54FB6272032F9DD00E00C56 /* findDinoTests.swift */; };
-		F54FB6332032F9DD00E00C56 /* findDinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54FB6322032F9DD00E00C56 /* findDinoUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +40,7 @@
 		F54FB61C2032F9DD00E00C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F54FB61E2032F9DD00E00C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F54FB6232032F9DD00E00C56 /* findDinoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = findDinoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F54FB6272032F9DD00E00C56 /* findDinoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findDinoTests.swift; sourceTree = "<group>"; };
-		F54FB6292032F9DD00E00C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F54FB62E2032F9DD00E00C56 /* findDinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = findDinoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F54FB6322032F9DD00E00C56 /* findDinoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findDinoUITests.swift; sourceTree = "<group>"; };
-		F54FB6342032F9DD00E00C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				F54FB6112032F9DD00E00C56 /* findDino */,
-				F54FB6262032F9DD00E00C56 /* findDinoTests */,
-				F54FB6312032F9DD00E00C56 /* findDinoUITests */,
 				F54FB6102032F9DD00E00C56 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,24 +97,6 @@
 				F54FB61E2032F9DD00E00C56 /* Info.plist */,
 			);
 			path = findDino;
-			sourceTree = "<group>";
-		};
-		F54FB6262032F9DD00E00C56 /* findDinoTests */ = {
-			isa = PBXGroup;
-			children = (
-				F54FB6272032F9DD00E00C56 /* findDinoTests.swift */,
-				F54FB6292032F9DD00E00C56 /* Info.plist */,
-			);
-			path = findDinoTests;
-			sourceTree = "<group>";
-		};
-		F54FB6312032F9DD00E00C56 /* findDinoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F54FB6322032F9DD00E00C56 /* findDinoUITests.swift */,
-				F54FB6342032F9DD00E00C56 /* Info.plist */,
-			);
-			path = findDinoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +242,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54FB6282032F9DD00E00C56 /* findDinoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F54FB6332032F9DD00E00C56 /* findDinoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +405,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = KnightClub.findDino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -448,7 +420,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = KnightClub.findDino;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
